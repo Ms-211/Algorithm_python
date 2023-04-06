@@ -16,3 +16,18 @@ def solution(n, m):
 def divisor(n):
     result = [i for i in range(1,(n//2)+1) if n % i == 0] + [n]
     return set(result)
+
+
+
+# 풀고나서 찾아본 방식
+
+# # 최대 공약수
+# def GCD(x,y):
+# 	# y가 참일동안 == 자연수일 때 == a % b != 0
+# 	while(y)
+# 		x,y = y, x%y
+# 	return x
+
+# # 최소 공배수
+# def LCM(x,y):
+# 	result = (x*y) // GCD(x,y)
